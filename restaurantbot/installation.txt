@@ -1,0 +1,2 @@
+python -m rasa_nlu.train -c config_mitie.json
+python -m rasa_nlu.server -c config_mitie.json

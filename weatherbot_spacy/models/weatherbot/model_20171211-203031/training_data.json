@@ -1,0 +1,449 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "how are you"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "how are you doing"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "how there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "How is the weather today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "What is the weather today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "How is the weather like today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "yesterday",
+            "entity": "date"
+          }
+        ],
+        "text": "How was weather yesterday"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "yesterday",
+            "entity": "date"
+          }
+        ],
+        "text": "What was the weather yesterday"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Yesterday",
+            "entity": "date"
+          }
+        ],
+        "text": "How was the weather like Yesterday"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "What will be weather tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "What is the weather tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "What is the weather in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "How is the weather in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "How is the weather like in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "What is weather tomorrow in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "What will be the weather tomorrow in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "city"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "What is the weather in London tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "today",
+            "entity": "date"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "How is weather today in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "today",
+            "entity": "date"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "What is the weather today in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "today",
+            "entity": "date"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "Weather today in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "city"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "How is the weather in London tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "London",
+            "entity": "city"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "Weather in London today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "London",
+            "entity": "city"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "Weather in London tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "Weather tomorrow in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "city"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "How is the weather in London today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "What is the weather like today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "today",
+            "entity": "date"
+          },
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Bangalore",
+            "entity": "city"
+          }
+        ],
+        "text": "What is the weather today in Bangalore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "today",
+            "entity": "date"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "How is the weather today in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "yesterday",
+            "entity": "date"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "How was weather yesterday in London"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

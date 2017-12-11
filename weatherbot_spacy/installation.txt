@@ -1,0 +1,2 @@
+python -m rasa_nlu.train -c weatherbot_config.json
+python -m rasa_nlu.server -c weatherbot_config.json

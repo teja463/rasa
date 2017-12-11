@@ -1,0 +1,60 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "mygreet",
+        "text": "hey"
+      },
+      {
+        "intent": "mygreet",
+        "text": "hello"
+      },
+      {
+        "intent": "mygreet",
+        "text": "hi"
+      },
+      {
+        "intent": "mygreet",
+        "text": "good morning"
+      },
+      {
+        "intent": "mybye",
+        "text": "bye"
+      },
+      {
+        "intent": "mybye",
+        "text": "good bye"
+      },
+      {
+        "intent": "mybye",
+        "text": "goodye"
+      },
+      {
+        "intent": "mysad",
+        "text": "oops"
+      },
+      {
+        "intent": "mysad",
+        "text": "shit"
+      },
+      {
+        "intent": "mysad",
+        "text": "oh god"
+      },
+      {
+        "intent": "mysad",
+        "text": "oh man"
+      },
+      {
+        "intent": "happy2",
+        "text": "teja"
+      },
+      {
+        "intent": "happy2",
+        "text": "dudeja"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

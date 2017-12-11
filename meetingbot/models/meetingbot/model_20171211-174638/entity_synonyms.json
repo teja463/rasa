@@ -1,0 +1,13 @@
+{
+  "conflicts": "conflict",
+  "overlappings": "overlap",
+  "overlaps": "overlap",
+  "overlapping": "overlap",
+  "events": "event",
+  "meetings": "meeting",
+  "busy i am": "am i busy",
+  "busy am i": "am i busy",
+  "coming up": "next",
+  "upcoming": "next",
+  "previous": "last"
+}

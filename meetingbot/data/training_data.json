@@ -1,0 +1,1319 @@
+{
+    "rasa_nlu_data": {
+      "entity_synonyms": [
+        {
+          "synonyms": [
+            "conflict",
+            "conflicts"
+          ],
+          "value": "conflict",
+          "entity": "conflict_identifier"
+        },
+        {
+          "synonyms": [
+            "overlap",
+            "overlappings",
+            "overlaps",
+            "overlapping"
+          ],
+          "value": "overlap",
+          "entity": "conflict_identifier"
+        },
+        {
+          "synonyms": [
+            "event",
+            "events"
+          ],
+          "value": "event",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "meeting",
+            "meetings"
+          ],
+          "value": "meeting",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "calendar"
+          ],
+          "value": "calendar",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "my day"
+          ],
+          "value": "my day",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "going on"
+          ],
+          "value": "going on",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "happening"
+          ],
+          "value": "happening",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "am i free"
+          ],
+          "value": "am i free",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "am i busy",
+            "Am I busy",
+            "busy I am",
+            "busy am I"
+          ],
+          "value": "am i busy",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "appointments"
+          ],
+          "value": "appointments",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "i am busy"
+          ],
+          "value": "i am busy",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "busy i am"
+          ],
+          "value": "busy i am",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "busy am i"
+          ],
+          "value": "busy am i",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "i am free"
+          ],
+          "value": "i am free",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "free i am"
+          ],
+          "value": "free i am",
+          "entity": "meeting_identifier"
+        },
+        {
+          "synonyms": [
+            "free am i"
+          ],
+          "value": "free am i",
+          "entity": "meeting_identifier"
+        }
+      ],
+      "common_examples": [
+        {
+          "text": "Are there any meeting Conflict?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 22,
+              "end": 30,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any Conflict ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 14,
+              "end": 22,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have conflicts ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 10,
+              "end": 19,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Get me the overlap details ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 11,
+              "end": 18,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Give me the info about conflicts",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 23,
+              "end": 32,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Give me the overlap details",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 19,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How many overlapping meetings I have",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 9,
+              "end": 20,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Tell me do I have conflicts in meetings",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 18,
+              "end": 27,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Tell me the conflict details",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Tell me the overlapping details",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 23,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Tell me what conflicts I have today",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 13,
+              "end": 22,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What about Conflict ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 11,
+              "end": 19,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What about conflict ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 11,
+              "end": 19,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are overlap details ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 9,
+              "end": 16,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are the conflicts ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 13,
+              "end": 22,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are the conflicts in tomorrow meetings",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 13,
+              "end": 22,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are the overlapping meetings",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 13,
+              "end": 24,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What is the Conflict ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What is the conflict ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What is the conflict in today meetings",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What meetings have overlaps ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 19,
+              "end": 27,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's the conflict?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 11,
+              "end": 19,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "how many conflicts I have ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 9,
+              "end": 18,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "tell me the conflict",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what is my conflict ?",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 11,
+              "end": 19,
+              "value": "conflict",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what is the overlap",
+          "intent": "hub_conflicts",
+          "entities": [
+            {
+              "start": 12,
+              "end": 19,
+              "value": "overlap",
+              "entity": "conflict_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How many meetings I have today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 9,
+              "end": 17,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What is my day look like",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 8,
+              "end": 14,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Are there any meetings today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 22,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any meetings today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 22,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what are my meetings today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are the meetings lined up ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 13,
+              "end": 21,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are the meetings lined up for me today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 13,
+              "end": 21,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are the meetings I have for today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 13,
+              "end": 21,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How is my day like today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Am I busy today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 0,
+              "end": 9,
+              "value": "am i busy",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How busy I am today ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 4,
+              "end": 13,
+              "value": "am i busy",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's my day look like today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How is my day going to be",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What is my day like",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 8,
+              "end": 14,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How is my day look like today",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "When is my next meeting?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 11,
+              "end": 15,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 16,
+              "end": 23,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any appointments today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 26,
+              "value": "appointments",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have anything going on today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 19,
+              "end": 27,
+              "value": "going on",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What do I have going on today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 15,
+              "end": 23,
+              "value": "going on",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's happening today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 16,
+              "value": "happening",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What events do I have today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 5,
+              "end": 11,
+              "value": "event",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How many event do I have today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 9,
+              "end": 14,
+              "value": "event",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How busy am I today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 4,
+              "end": 13,
+              "value": "am i busy",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's my next event?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 10,
+              "end": 14,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "value": "event",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's my next meeting?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 10,
+              "end": 14,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What does my day look like?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 10,
+              "end": 16,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What does my calendar have for today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 13,
+              "end": 21,
+              "value": "calendar",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What meetings do I have today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 5,
+              "end": 13,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any meetings today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 22,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any events happening today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 20,
+              "value": "event",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 21,
+              "end": 30,
+              "value": "happening",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "When is my next meeting happening?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 11,
+              "end": 15,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 16,
+              "end": 23,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 24,
+              "end": 33,
+              "value": "happening",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Is my next meeting coming up soon?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 6,
+              "end": 10,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "value": "next",
+              "entity": "meeting_attribute"
+            }
+          ]
+        },
+        {
+          "text": "What events do I have coming up?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 5,
+              "end": 11,
+              "value": "event",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 22,
+              "end": 31,
+              "value": "next",
+              "entity": "meeting_attribute"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any events coming up soon?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 20,
+              "value": "event",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 21,
+              "end": 30,
+              "value": "next",
+              "entity": "meeting_attribute"
+            }
+          ]
+        },
+        {
+          "text": "How soon is my next event?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 15,
+              "end": 19,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "value": "event",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Tell me the next appointment time",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 12,
+              "end": 16,
+              "value": "next",
+              "entity": "meeting_attribute"
+            }
+          ]
+        },
+        {
+          "text": "What are my appointments today",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 12,
+              "end": 24,
+              "value": "appointments",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's my next appointment?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 10,
+              "end": 14,
+              "value": "next",
+              "entity": "meeting_attribute"
+            }
+          ]
+        },
+        {
+          "text": "Do I have any upcoming events?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 14,
+              "end": 22,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "value": "event",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What are my upcoming meetings?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "value": "meetings",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Is my next meeting happening soon?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 6,
+              "end": 10,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "value": "happening",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What events are there in my calendar",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 5,
+              "end": 11,
+              "value": "event",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 28,
+              "end": 36,
+              "value": "calendar",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Could you please brief about my calendar",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 32,
+              "end": 40,
+              "value": "calendar",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How is my calendar look like today",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 10,
+              "end": 18,
+              "value": "calendar",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What time is my next meeting?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 16,
+              "end": 20,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Is my next meeting coming up?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 6,
+              "end": 10,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "value": "next",
+              "entity": "meeting_attribute"
+            }
+          ]
+        },
+        {
+          "text": "Is my next meeting soon?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 6,
+              "end": 10,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "Is my next meeting happening soon",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 6,
+              "end": 10,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "value": "happening",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what is my next meeting today",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 11,
+              "end": 15,
+              "value": "next",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 16,
+              "end": 23,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what was my last meeting today",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 12,
+              "end": 16,
+              "value": "last",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 17,
+              "end": 24,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what was my last meeting",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 12,
+              "end": 16,
+              "value": "last",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 17,
+              "end": 24,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what is my previous meeting",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 11,
+              "end": 19,
+              "value": "last",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 20,
+              "end": 27,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What is my last meeting ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 11,
+              "end": 15,
+              "value": "last",
+              "entity": "meeting_attribute"
+            },
+            {
+              "start": 16,
+              "end": 23,
+              "value": "meeting",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What does my calendar look like today?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 13,
+              "end": 21,
+              "value": "calendar",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "What's my day look like",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what's my day look like tomorrow",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what's my day look like yesterday",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "How is my day look like ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        },
+        {
+          "text": "what's my day like ?",
+          "intent": "hub_get_meetings",
+          "entities": [
+            {
+              "start": 7,
+              "end": 13,
+              "value": "my day",
+              "entity": "meeting_identifier"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

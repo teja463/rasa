@@ -1,0 +1,28 @@
+action_factory: null
+actions:
+- utter_mygreet
+- utter_mybye
+- utter_mysad
+- utter_happy2
+- utter_did_it_help
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- mygreet
+- mybye
+- mysad
+- happy2
+slots: {}
+templates:
+  utter_did_it_help:
+  - text: I am sure you are ok now
+  utter_happy2:
+  - text: 'I am glad that you are happy '
+  utter_mybye:
+  - text: Thank you for using moodbot
+  utter_mygreet:
+  - text: Hello there..
+  utter_mysad:
+  - text: I am sorry that you are sad
+topics: []

@@ -1,0 +1,7 @@
+{
+    "pipeline": "spacy_sklearn",
+    "project":"meetingbot",
+    "path": "./models",
+    "data": "./data/training_data.json",
+    "port": 5002
+}

@@ -1,0 +1,15 @@
+{
+  "features": [
+    "intent_mygreet",
+    "intent_mybye",
+    "intent_mysad",
+    "intent_happy2",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_mygreet",
+    "prev_utter_mybye",
+    "prev_utter_mysad",
+    "prev_utter_happy2",
+    "prev_utter_did_it_help"
+  ]
+}

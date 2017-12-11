@@ -1,0 +1,101 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how are you doing",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good morning",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how there",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good evening",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "dear sir",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "thank you",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "good bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "goodbye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "stop",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "end",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "cheers",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "farewell",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "bye bye",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "have a good day",
+                "intent": "bye",
+                "entities": []
+            }
+        ]
+    }
+}

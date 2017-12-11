@@ -1,0 +1,24 @@
+intents:
+  - mygreet
+  - mybye
+  - mysad
+  - happy2
+
+templates:
+  utter_mygreet:
+    - text: "Hello there.."
+  utter_mybye:
+    - text: "Thank you for using moodbot"
+  utter_mysad:
+    - text: "I am sorry that you are sad"
+  utter_happy2:
+    - text: "I am glad that you are happy "
+  utter_did_it_help:
+    - text: "I am sure you are ok now"
+
+actions:
+  - utter_mygreet
+  - utter_mybye
+  - utter_mysad
+  - utter_happy2
+  - utter_did_it_help

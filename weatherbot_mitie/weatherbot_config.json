@@ -1,0 +1,9 @@
+{
+    "pipeline": "mitie",
+	"mitie_file": "./data/total_word_feature_extractor.dat",
+    "project":"weatherbot",
+    "path": "./models",
+    "data": "./data/weatherbot_training_data.json",
+    "num_threads": 10,
+    "port": 5001
+}

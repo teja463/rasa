@@ -1,0 +1,11 @@
+---------
+mybot2
+---------
+python -m rasa_nlu.train -c mybot2_spacy_config.json
+python -m rasa_nlu.server -c mybot2_spacy_config.json
+
+---------
+weather
+---------
+python -m rasa_nlu.train -c weatherbot_config.json
+python -m rasa_nlu.server -c weatherbot_config.json

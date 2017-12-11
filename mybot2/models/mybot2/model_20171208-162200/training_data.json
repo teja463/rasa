@@ -1,0 +1,38 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "how are you"
+      },
+      {
+        "intent": "bye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "entities": [],
+        "text": "thank you"
+      },
+      {
+        "intent": "bye",
+        "entities": [],
+        "text": "bye"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

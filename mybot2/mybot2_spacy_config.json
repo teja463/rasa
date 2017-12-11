@@ -1,0 +1,6 @@
+{
+    "pipeline": "spacy_sklearn",
+    "path": "./models",
+    "project": "mybot2",
+    "data": "./data/mybot_training_data.json"
+}
