@@ -1,0 +1,14 @@
+intents:
+  - greet
+  - weather
+
+templates:
+  utter_greet:
+    - text: "Hello there.."
+    - text: "Hello good day"
+  forecast_weather:
+    - text: "I hope the weather is pleasent"
+
+actions:
+  - utter_greet
+  - forecast_weather

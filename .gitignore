@@ -1,2 +1,5 @@
 *.dat
 /logs/*
+*.log
+**/models
+**/logs

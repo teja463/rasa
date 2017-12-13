@@ -1,0 +1,423 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how are you",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how are you doing",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good morning",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how there",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "good evening",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "dear sir",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "how is the weather today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 19,
+                        "end": 24,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "what is the weather in london",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 29,
+                        "value": "london",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "weather now",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 11,
+                        "value": "now",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "how is the weather in london",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 22,
+                        "end": 28,
+                        "value": "london",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "what is the weather in london tomorrow",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 30,
+                        "end": 38,
+                        "value": "tomorrow",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 23,
+                        "end": 29,
+                        "value": "london",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "weather today in london",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 17,
+                        "end": 23,
+                        "value": "london",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 8,
+                        "end": 13,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "how is the weather like today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "what is the weather today in bangalore",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 29,
+                        "end": 38,
+                        "value": "bangalore",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 20,
+                        "end": 25,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "how is the weather in london tomorrow",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 29,
+                        "end": 37,
+                        "value": "tomorrow",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 22,
+                        "end": 28,
+                        "value": "london",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "what is weather tomorrow in london",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 28,
+                        "end": 34,
+                        "value": "london",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 16,
+                        "end": 24,
+                        "value": "tomorrow",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "how was weather yesterday",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 25,
+                        "value": "yesterday",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "how is the weather today in london",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 19,
+                        "end": 24,
+                        "value": "today",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 28,
+                        "end": 34,
+                        "value": "london",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "what is weather like in hyderabad today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 33,
+                        "value": "hyderabad",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 34,
+                        "end": 39,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "weather now in bangalore",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 11,
+                        "value": "now",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 15,
+                        "end": 24,
+                        "value": "bangalore",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "what is weather like in brisbane today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 32,
+                        "value": "brisbane",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 33,
+                        "end": 38,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "weather now in hyderabad",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 11,
+                        "value": "now",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 15,
+                        "end": 24,
+                        "value": "hyderabad",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "what is weather like in london today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 30,
+                        "value": "london",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 31,
+                        "end": 36,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "weather now in london",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 11,
+                        "value": "now",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 15,
+                        "end": 21,
+                        "value": "london",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "what is weather like in bangalore today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 33,
+                        "value": "bangalore",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 34,
+                        "end": 39,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "what is weather like in texas today",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "texas",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 30,
+                        "end": 35,
+                        "value": "today",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "give me an update on weather in repalle tomorrow",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 32,
+                        "end": 39,
+                        "value": "repalle",
+                        "entity": "city"
+                    },
+                    {
+                        "start": 40,
+                        "end": 48,
+                        "value": "tomorrow",
+                        "entity": "date"
+                    }
+                ]
+            },
+            {
+                "text": "weather now in vijayawada",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 25,
+                        "value": "vijayawada",
+                        "entity": "city"
+                    }
+                ]
+            },
+            {
+                "text": "weather today in hyderabad",
+                "intent": "weather",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 13,
+                        "value": "today",
+                        "entity": "date"
+                    },
+                    {
+                        "start": 17,
+                        "end": 26,
+                        "value": "hyderabad",
+                        "entity": "city"
+                    }
+                ]
+            }
+        ]
+    }
+}

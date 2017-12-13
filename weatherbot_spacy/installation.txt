@@ -1,2 +1,13 @@
+----------------------------
+Rasa NLU
+----------------------------
 python -m rasa_nlu.train -c weatherbot_config.json
 python -m rasa_nlu.server -c weatherbot_config.json
+
+
+
+----------------------------
+Rasa Core
+----------------------------
+python -m rasa_core.train -s data/stories.md -d domain.yml -o models/dialogue --epochs 300
+python -m rasa_core.run -d models/dialogue -u models/weatherbot/model_20171213-121051
